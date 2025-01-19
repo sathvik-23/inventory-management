@@ -14,5 +14,3 @@
 - **AWS API Gateway**
 - **AWS Amplify**
 - **AWS S3**
-ile](https://github.com/ed-roh/inventory-management/blob/master/server/prisma/schema.prisma)
-- [AWS commands](https://github.com/ed-roh/inventory-management/blob/master/server/aws-ec2-instructions.md)
