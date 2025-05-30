@@ -1,127 +1,118 @@
-Inventory Management Dashboard
+# Inventory Management Dashboard
+
 A full-stack inventory management dashboard designed to streamline and optimize inventory tracking and management processes.
 
-🛠️ Tech Stack
-Frontend
-Next.js
+---
 
-Tailwind CSS
+## 🛠️ Tech Stack
 
-Redux Toolkit
+### Frontend
 
-Redux Toolkit Query
+- Next.js
+- Tailwind CSS
+- Redux Toolkit
+- Redux Toolkit Query
+- Material UI Data Grid
 
-Material UI Data Grid
-GitHub
-+5
-GitHub
-+5
-GitHub
-+5
+### Backend
 
-Backend
-Node.js
+- Node.js
+- Prisma
 
-Prisma
+### Deployment & Cloud Services
 
-Deployment & Cloud Services
-AWS EC2
+- AWS EC2
+- AWS RDS
+- AWS API Gateway
+- AWS Amplify
+- AWS S3
 
-AWS RDS
+---
 
-AWS API Gateway
+## 📁 Project Structure
 
-AWS Amplify
+- `client/` - Contains the frontend application built with Next.js.
+- `server/` - Houses the backend API developed using Node.js and Prisma.
 
-AWS S3
-GitHub
-GitHub
-+5
-GitHub
-+5
-GitHub
-+5
+---
 
-📁 Project Structure
-client/ - Contains the frontend application built with Next.js.
+## 🚀 Getting Started
 
-server/ - Houses the backend API developed using Node.js and Prisma.
+### Prerequisites
 
-🚀 Getting Started
-Prerequisites
-Node.js (v14 or later)
+- Node.js (v14 or later)
+- npm or yarn
+- AWS account with necessary permissions
 
-npm or yarn
+### Installation
 
-AWS account with necessary permissions
+1. **Clone the repository:**
 
-Installation
-Clone the repository:
+   ```bash
+   git clone https://github.com/sathvik-23/inventory-management.git
+   cd inventory-management
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/sathvik-23/inventory-management.git
-cd inventory-management
-Install dependencies for both frontend and backend:
+2. **Install dependencies for both frontend and backend:**
 
-bash
-Copy
-Edit
-cd client
-npm install
-cd ../server
-npm install
-Configure environment variables:
+   ```bash
+   cd client
+   npm install
+   cd ../server
+   npm install
+   ```
 
-Create a .env file in both client/ and server/ directories and add the necessary environment variables as per your setup.
+3. **Configure environment variables:**
 
-Run the development servers:
+   Create a `.env` file in both `client/` and `server/` directories and add the necessary environment variables as per your setup.
 
-Frontend:
+4. **Run the development servers:**
 
-bash
-Copy
-Edit
-cd client
-npm run dev
-Backend:
+   - **Frontend:**
 
-bash
-Copy
-Edit
-cd server
-npm run dev
-🧪 Features
-Real-time inventory tracking
+     ```bash
+     cd client
+     npm run dev
+     ```
 
-CRUD operations for products
+   - **Backend:**
 
-Responsive and intuitive UI with Material UI Data Grid
+     ```bash
+     cd server
+     npm run dev
+     ```
 
-State management using Redux Toolkit
+---
 
-API integration with Redux Toolkit Query
+## 🧪 Features
 
-Secure and scalable backend with Node.js and Prisma
+- Real-time inventory tracking
+- CRUD operations for products
+- Responsive and intuitive UI with Material UI Data Grid
+- State management using Redux Toolkit
+- API integration with Redux Toolkit Query
+- Secure and scalable backend with Node.js and Prisma
+- Deployment-ready with AWS services
 
-Deployment-ready with AWS services
+---
 
-📦 Deployment
+## 📦 Deployment
+
 The application is configured for deployment using AWS services:
-GitHub
 
-Frontend deployed via AWS Amplify
+- **Frontend** deployed via AWS Amplify
+- **Backend API** managed through AWS API Gateway and hosted on AWS EC2
+- **Database** hosted on AWS RDS
+- **Static assets** stored in AWS S3
 
-Backend API managed through AWS API Gateway and hosted on AWS EC2
+---
 
-Database hosted on AWS RDS
+## 🤝 Contributing
 
-Static assets stored in AWS S3
-
-🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
